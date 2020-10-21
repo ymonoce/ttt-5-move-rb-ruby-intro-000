@@ -19,6 +19,6 @@ end
 def move(board, user_input, xo = "X")
   input_to_index(user_input)
 # update board array with user_input index equal to string
-  puts "#{board}"[user_input] = X
+  puts "#{board}"[user_input] = xo
 # end method definition
 end
