@@ -6,6 +6,7 @@ puts "Welcome to Tic Tac Toe!"
 # creates array with nine blank spaces indexed zero through eight
 board = Array.new(9, " ")
 puts "Where would you like to go?"
-input = input_to_index(gets.strip)
+input_to_index(gets.strip)
+input = gets.strip
 move(board, input, xo = "X")
 display_board (board)
