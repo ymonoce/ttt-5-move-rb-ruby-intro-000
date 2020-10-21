@@ -19,6 +19,6 @@ end
 def move(board, user_input, xo = "X")
   input_to_index("#{user_input}")
 # update board array with user_input index equal to string
-  board["#{user_input}"] = xo
+  board[user_input] = xo
 # end method definition
 end
