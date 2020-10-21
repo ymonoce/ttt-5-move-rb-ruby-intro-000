@@ -4,10 +4,14 @@ require_relative '../lib/move.rb'
 
 # greets the player
 puts "Welcome to Tic Tac Toe!"
+
 # creates array with nine blank spaces indexed zero through eight
 board = Array.new(9, " ")
+
 # asks the player which space to place their xo
 puts "Where would you like to go?"
+
+# creates variable equal to player inputs passed through a method
 input = input_to_index(gets.strip)
 move(board, input, xo = "X")
 display_board (board)
