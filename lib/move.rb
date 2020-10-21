@@ -22,7 +22,7 @@ end
 
 # define method with three paramaters
 def move(board, input, xo = "X")
-# update board array with input equal to string
+# update board array with input set equal to string
   board[input] = xo
 # end method definition
 end
