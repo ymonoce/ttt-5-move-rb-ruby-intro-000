@@ -17,7 +17,6 @@ end
 
 # define method with three paramaters
 def move(board, input, xo = "X")
-  input_to_index(input)
 # update board array with user_input index equal to string
   board[input] = xo
 # end method definition
