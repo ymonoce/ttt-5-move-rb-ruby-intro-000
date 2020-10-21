@@ -11,7 +11,7 @@ board = Array.new(9, " ")
 # asks the player which space to place their xo
 puts "Where would you like to go?"
 
-# creates variable equal to player inputs passed through a method
+# creates variable equal to player input passed through a method
 input = input_to_index(gets.strip)
 move(board, input, xo = "X")
 display_board (board)
