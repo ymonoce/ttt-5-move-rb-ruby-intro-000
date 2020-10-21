@@ -11,7 +11,7 @@ end
 # define method with one paramater
 def input_to_index(input)
 # converts argument to integer and subracts one
-input.to_i - 1
+"input".to_i - 1
 # end method definition
 end
 
