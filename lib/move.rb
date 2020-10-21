@@ -6,11 +6,11 @@ def display_board(board)
   puts "-----------"
 # puts top row of board, three cells mapped to array index
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
-# puts top row of board, three cells mapped to array index
+# ibid
   puts "-----------"
-# puts top row of board, three cells mapped to array index
+# ibid
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
-# puts top row of board, three cells mapped to array index
+# end method definiton
 end
 
 # define method with one paramater
