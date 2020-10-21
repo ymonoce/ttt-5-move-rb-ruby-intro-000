@@ -1,6 +1,6 @@
 # define method with one argument
 def display_board(board)
-# puts top row of board, three cells mapped to array index
+# puts string representing top row of board, three cells mapped to array index
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
 # puts top row of board, three cells mapped to array index
   puts "-----------"
