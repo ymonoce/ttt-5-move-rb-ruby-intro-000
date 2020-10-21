@@ -14,5 +14,6 @@ puts "Where would you like to go?"
 # creates variable equal to player input converted to an integer minus one
 input = input_to_index(gets.strip)
 
+# updates the board array with the players move and xo
 move(board, input, xo = "X")
 display_board (board)
