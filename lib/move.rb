@@ -11,13 +11,13 @@ end
 # define method with one paramater
 def input_to_index(input)
 # converts argument to integer and subracts one
-index = input.to_i - 1
+input.to_i - 1
 # end method definition
 end
 
 # define method with three paramaters
-def move(board, index, xo = "X")
+def move(board, input, xo = "X")
 # update board array with user_input index equal to string
-  board[index] = xo
+  board[input] = xo
 # end method definition
 end
